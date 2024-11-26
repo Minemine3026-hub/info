@@ -59,8 +59,9 @@ footer {
     background-color: #6200ea;
     color: white;
     padding: 10px 0;
-    margin-top: auto; /* ใช้ margin-top: auto เพื่อให้ footer เลื่อนลงมา */
-    width: 100%;
+    position: absolute;  /* ทำให้ footer ติดกับขอบล่าง */
+    bottom: 0;  /* ทำให้ footer อยู่ที่ด้านล่างสุด */
+    width: 100%;  /* กำหนดให้ footer กว้างเต็มหน้าจอ */
     text-align: center;
 }
 
