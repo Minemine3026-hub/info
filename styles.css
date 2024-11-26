@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.contact-links {
+    margin: 20px;
+    padding: 0;
+}
+
+.contact-links .link {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.contact-links .facebook {
+    background-color: #3b5998;
+}
+
+.contact-links .instagram {
+    background-color: #e4405f;
+}
+
+.contact-links .twitter {
+    background-color: #1da1f2;
+}
+
+.contact-links .email {
+    background-color: #d44638;
+}
+
+.contact-links .phone {
+    background-color: #34a853;
+}
+
+.contact-links .link:hover {
+    opacity: 0.9;
+}
+
+footer {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
