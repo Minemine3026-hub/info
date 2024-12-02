@@ -1,15 +1,13 @@
-body {
-    font-family: Arial, sans-serif;
+html, body {
+    height: 100%; /* ทำให้ body และ html ครอบคลุมความสูงของหน้าจอ */
     margin: 0;
     padding: 0;
-    background-image: url('https://images.hdqwalls.com/wallpapers/honkai-impact-3rd-anime-4k-03.jpg'); /* ใส่ URL ของรูปที่ต้องการ */
+    background-image: url('https://images.hdqwalls.com/wallpapers/honkai-impact-3rd-anime-4k-03.jpg'); /* ใส่ URL ของรูป */
     background-size: cover; /* ให้รูปภาพครอบคลุมพื้นที่ทั้งหมด */
     background-repeat: no-repeat; /* ไม่ให้รูปภาพซ้ำ */
     background-position: center; /* จัดตำแหน่งรูปภาพให้อยู่ตรงกลาง */
-    color: #fff; /* เปลี่ยนสีตัวอักษรเป็นขาว */
-    text-align: center;
+    color: #fff; /* สีตัวอักษร */
 }
-
 header {
     background-color: #6200ea;
     color: white;
