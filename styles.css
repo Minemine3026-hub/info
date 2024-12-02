@@ -60,15 +60,11 @@ h1 {
 }
 
 footer {
-    background-color: #6200ea;
+    background-color: rgba(98, 0, 234, 0.8); /* สีม่วงโปร่งแสง (0.8 คือระดับความโปร่งแสง) */
     color: white;
     padding: 10px 0;
-    position: absolute;  /* ทำให้ footer ติดกับขอบล่าง */
-    bottom: 0;  /* ทำให้ footer อยู่ที่ด้านล่างสุด */
-    width: 100%;  /* กำหนดให้ footer กว้างเต็มหน้าจอ */
+    position: fixed; /* ทำให้ footer ติดอยู่ด้านล่างเสมอ */
+    bottom: 0;
+    width: 100%;
     text-align: center;
-}
-
-footer p {
-    margin: 0;
 }
