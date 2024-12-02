@@ -2,7 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #9cc7f7; /* เปลี่ยนเป็นสีดำ */
+    background-image: url('https://images.hdqwalls.com/wallpapers/honkai-impact-3rd-anime-4k-03.jpg'); /* ใส่ URL ของรูปที่ต้องการ */
+    background-size: cover; /* ให้รูปภาพครอบคลุมพื้นที่ทั้งหมด */
+    background-repeat: no-repeat; /* ไม่ให้รูปภาพซ้ำ */
+    background-position: center; /* จัดตำแหน่งรูปภาพให้อยู่ตรงกลาง */
     color: #fff; /* เปลี่ยนสีตัวอักษรเป็นขาว */
     text-align: center;
 }
