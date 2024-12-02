@@ -9,7 +9,7 @@ html, body {
     color: #fff; /* สีตัวอักษร */
 }
 header {
-    background-color: #6200ea;
+    background-color:  rgba(98, 0, 234, 0.8); /* สีม่วงโปร่งแสง (0.8 คือระดับความโปร่งแสง) */
     color: white;
     padding: 20px 0;
 }
