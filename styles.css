@@ -39,16 +39,16 @@ h1 {
     background-color: #3b5998;
 }
 
+.contact-links .tipme {
+    background-color: #d44638;
+}
+
 .contact-links .instagram {
     background-color: #e4405f;
 }
 
 .contact-links .discord {
     background-color: #1da1f2;
-}
-
-.contact-links .tipme {
-    background-color: #d44638;
 }
 
 .contact-links .email {
